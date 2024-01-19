@@ -1,0 +1,40 @@
+html {
+   background-color: #214c84;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+
+.login {
+   padding: 170px 0;
+}
+
+.login form {
+   max-width: 1000px;
+   padding: 50px 70px;
+   border-radius: 20px;
+   box-shadow: 4px 4px 20px rgb(0, 0, 0);
+   background-color: white;
+}
+
+.login .item {
+   border-radius: 10px;
+   margin-bottom: 25px;
+   padding: 10px 20px;
+}
+
+.login .create-account {
+   border-radius: 30px;
+   padding: 10px 20px;
+   font-size: 18px;
+   font-weight: bold;
+   background-color: #3f93ff;
+   border: none;
+   color: white;
+   margin-top: 20px;
+}
+
+.login .create-account:hover {
+   background-color: black;
+   color: white;
+}

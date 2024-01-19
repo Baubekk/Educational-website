@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+
+<head class="common">
+   <meta charset="utf-8">
+   <link rel="stylesheet" href="C:\Users\baybe\My Folder\Web Projects\SAU Project\STYLE\Addition_Formula.css">
+   <title>Формулы сложения в тригонометрий, доказательства</title>
+
+</head>
+
+<body>
+
+   <header> <!--Шапка сайта-->
+      <span class="sm">SmartMath</span>
+      <div class="navigator">
+         <nav>
+            <ul>
+               <li>
+                  <a href="#formulas" style="text-decoration: none;">Формулы сложения</a>
+               </li>
+
+               <li>
+                  <a href="#form_evid" style="text-decoration: none;">Доказательства формул</a>
+               </li>
+
+               <li>
+                  <a href="#cos_dif" style="text-decoration: none;">cos(α - β)</a>
+               </li>
+
+               <li>
+                  <a href="#cos_sum" style="text-decoration: none;">cos(α + β)</a>
+               </li>
+
+               <li>
+                  <a href="#sin_dif" style="text-decoration: none;">sin(α - β)</a>
+               </li>
+
+               <li>
+                  <a href="#tg_sum" style="text-decoration: none;">tg(α + β)</a>
+               </li>
+
+               <li><a href="#tg_dif" style="text-decoration: none;">tg(α - β)</a>
+               </li>
+
+               <li>
+                  <a href="#ctg_sum" style="text-decoration: none;">ctg(α + β)</a>
+               </li>
+               <li>
+                  <a href="C:\Users\baybe\My Folder\Web Projects\SAU Project\HTML\login.html"
+                     style="text-decoration: none;" class="login">Войти</a>
+               </li>
+            </ul>
+
+         </nav>
+      </div>
+   </header>
+
+
+
+   <main class="container"> <!--Главная часть сайта, вся информация-->
+
+      <div class="common info_text">
+         <h1>Формулы сложения в тригонометрий и их доказательства</h1>
+         <div>
+            Формулы сложения выражают синус, косинус, тангенс и котангенс суммы и разности двух углов поворота и через
+            тригонометрические функции этих углов. Сначала мы перечислим все формулы сложения, дальше приведем их
+            доказательство.
+         </div>
+
+         <h3>
+            Формулы сложения и ее формулировка
+            <a name="formulas"></a>
+         </h3>
+         <ul>
+            <li>
+               Формула синуса суммы <img src="Images\Addition_Formula\sin_of_sum.png" alt="Формула синуса суммы"
+                  class="img_formula_str"> - синус суммы двух углов равен сумме произведений синуса первого угла на
+               косинус второго и косинуса первого угла на синус второго.
+            </li>
+
+            <li>
+               Синус разности двух углов <img src="Images\Addition_Formula\sin_of_difference.png"
+                  alt="Формула синуса разности" class="img_formula_str"> - синус разности двух углов равен разности
+               произведений синуса первого угла на косинус второго и косинуса первого угла на синус второго.
+            </li>
+
+            <li>
+               Формула косинуса суммы <img src="Images\Addition_Formula\cos_of_sum.png" alt="Формула косинуса суммы"
+                  class="img_formula_str"> - косинус суммы двух углов равен разности произведений косинусов этих углов и
+               синусов этих углов.
+            </li>
+
+            <li>
+               Косинус разности <img
+                  src="C:\Users\baybe\My Folder\SAU Project\Images\Addition_Formula\cos_of_difference.png"
+                  alt="Формула косинуса разности" class="img_formula_str"> - косинус разности двух углов равен сумме
+               произведений косинусов этих углов и синусов этих углов.
+            </li>
+
+            <li>
+               Тангенс суммы <img src="Images\Addition_Formula\tg_of_sum.png" alt="Формула тангенса суммы"
+                  class="img_formula_block">.
+            </li>
+
+            <li>
+               Тангенс разности <img src="Images\Addition_Formula\tg_of_difference.png" alt="Формула тангенса разности"
+                  class="img_formula_block">.
+            </li>
+
+            <li>
+               Котангенс суммы <img src="Images\Addition_Formula\ctg_of_sum.png" alt="Формула котангенса суммы"
+                  class="img_formula_block">.
+            </li>
+
+            <li>
+               Котангенс разности <img src="Images\Addition_Formula\ctg_of_difference.png"
+                  alt="Формула котангенса разности" class="img_formula_block">.
+            </li>
+         </ul>
+
+         <p>
+            Вы, наверное, заметили, что эти формулы попарно схожи. При помощи знаков ±(плюс-минус) и ∓(минус-плюс) мы
+            можем сгруппировать их для удобства записи:
+         </p>
+
+         <img src="Images\Addition_Formula\formulas_of_sum_and_diff.png" alt="формулы кратко" height="35%" width="35%">
+
+         <p>
+            формулы сложения для синуса и косинуса справедливы для любых углов <span class="formula">α</span> и <span
+               class="formula">β</span>. А формулы сложения для тангенса и котангенса справедливы для всех <span
+               class="formula">α</span> и <span class="formula">β</span>, для которых определены входящие в них тангенсы
+            и котангенсы.
+         </p>
+
+         <h2>
+            Доказательства формул сложения
+            <a id="form_evid"></a>
+         </h2>
+
+         <p>
+            Начнем с доказательства формулы косинуса разности <img src="Images\Addition_Formula\cos_of_difference.png"
+               alt="Формула косинуса разности">. Она нам поможет доказать другие формулы сложения.
+         </p>
+
+         <p>
+            Уточним основные понятия. Нам понадобится единичная окружность. Пусть точки
+            <span class="formula">A1</span>
+            и
+            <span class="formula">A2</span>
+            получены в результате поворота начальной точки
+            <span class="formula">A(1, 0)</span>
+            вокруг точки
+            <span class="formula">O</span>
+            на углы
+            <span class="formula">α</span>
+            и
+            <span class="formula">β</span>
+            соответственно. Тогда угол между векторами
+            <span class="formula">OA<sub>1</sub></span>
+            и
+            <span class="formula">OA<sub>2</sub></span>
+            равен либо
+            <span class="formula">(α − β) + 2π ⋅ z</span>
+            , либо
+            <span class="formula">2π − (α − β) + 2π ⋅ z</span>
+            , где
+            <span class="formula">z</span>
+            – любое целое число. Другими словами, угол между указанными векторами равен либо
+            <span class="formula">α − β</span>
+            , либо
+            <span class="formula">2π − (α − β)</span>
+            , либо отличается от этих значений на целое число полных оборотов. Приведем графическую иллюстрацию для
+            наглядности.
+         </p>
+
+         <img src="Images\Addition_Formula\One_circle.png" alt="Единичная_окружность">
+
+         <p>
+            Мы воспользовались формулами приведения и получили следующие результаты:
+         </p>
+         <div class="formula">
+            cos ((α − β) + 2π ⋅ z)=cos (α − β) <br>
+            cos (2π − (α − β) + 2π ⋅ z) = cos (α − β)
+         </div>
+         <p>
+            Итог: косинус угла между векторами
+            <span class="formula">OA<sub>1</sub></span>
+            и
+            <span class="formula">OA<sub>2</sub></span>
+            равняется косинусу угла
+            <span class="formula">α − β</span>
+            , следовательно,
+            <span class="formula">cos (OA<sub>1</sub>, OA<sub>2</sub>) = cos (α−β)</span>
+         </p>
+
+         <p>
+            Далее мы переходим к самому доказательству формулы косинуса разности.
+            <a id="cos_dif"></a>
+         </p>
+
+         <p>
+            Вспомним определения синуса и косинуса: синус - функция угла, равная отношению катета противолежащего угла к
+            гипотенузе, косинус – это синус дополнительного угла. Следовательно, точки
+            <span class="formula">A1</span>
+            и
+            <span class="formula">A2</span>
+            имеют координаты
+            <span class="formula">(cos α, sin α)</span>
+            и
+            <span class="formula">(cos β, sin β)</span>.
+
+         <p>
+            Получим следующее:
+         </p>
+         </p>
+
+         <div class="formula">
+            OA<sub>1</sub>=(cos α, sin α) <br>
+            OA<sub>2</sub>=(cos β, sin β)
+         </div>
+
+         <p>
+            Разберем теперь скалярное произведение векторов
+            <span class="formula">OA<sub>1</sub></span>
+            и
+            <span class="formula">OA<sub>2</sub></span>
+            . В координатах оно выглядит так:
+         </p>
+
+         <div class="formula">
+            (OA<sub>1</sub>, OA<sub>2</sub>) = cos α ⋅ cos β + sin α ⋅ sin β
+         </div>
+
+         <p>
+            Из этого мы можем вывести равенство:
+         </p>
+
+         <div class="formula">
+            cos (α − β) = cos α ⋅ cos β+sin α ⋅ sin β
+         </div>
+
+         <p>
+            Таким образом, формула косинуса разности доказана.
+         </p>
+
+         <p>
+            Теперь мы докажем следующую формулу – косинуса суммы. Это проще, поскольку мы можем воспользоваться
+            предыдущими расчетами. Возьмем представление
+            <a id="cos_sum"></a>
+            <span class="formula">α + β=α−(−β)</span>
+            У нас есть:
+         </p>
+
+         <div class="formula">
+            cos (α + β) = cos (α − (− β)) = <br>
+            = cos α ⋅ cos (−β) + sin α ⋅ sin (−β) = <br>
+            = cos α ⋅ cos β + sin α ⋅ sin β
+         </div>
+
+         <p>
+            А вот доказательство формулы синуса разности:
+            <a id="sin_dif"></a>
+         </p>
+
+         <div class="formula">
+            sin (α − β) = sin (α + (−β)) =<br>
+            =sin α ⋅ cos (−β) + cos α ⋅ sin (−β) =<br>
+            =sin α ⋅ cos β − cos α ⋅ sin β
+         </div>
+
+         <p>
+            Переходим к доказательству формул сложения для тангенса и котангенса. Для этого достаточно вспомнить, что
+            тангенс – это отношение синуса к косинуса, а котангенс – отношение косинуса к синусу, а также применить
+            доказанные выше формулы.
+            <a id=tg_sum></a>
+         </p>
+
+         <div class="line_space"> <!--Доказательство тангенса суммы-->
+            Так
+            <img src="Images\Addition_Formula\tg_of_sum_sin-cos.png" alt="Тангенс суммы - сокращение"
+               class="img_formula_block">
+            . Теперь разделим числитель и знаменатель полученной дроби на
+            <span class="formula">cos α ⋅ cos β</span>
+            , учитывая что
+            <span class="formula">cos α ≠ 0</span>
+            и
+            <span class="formula">cos β ≠ 0</span>
+            , имеем:
+            <img src="Images\Addition_Formula\tg_of_sum_sin-cos-continuation.png"
+               alt="Тангенс суммы - сокращение -> продолжение"> <br>
+            после сокращения дробей получаем: <br>
+            <img src="Images\Addition_Formula\tg_of_sum_sin-cos-continuation-end.png"
+               alt="Тангенс суммы - сокращение -> продолжение -> конец">
+         </div>
+
+         <div class="line_space"> <!--Доказательство тангенса разности-->
+            Теперь докажем формулу тангенса разности:
+            <a id="tg_dif"></a>
+            <a id='ctg_sum'></a>
+            <img src="Images\Addition_Formula\tg_of_differnce_end.png"
+               alt="Тангенс разности - сокращение и доказательство" class="img_formula_block">
+         </div>
+
+         <div class="line_space">
+            Формулы сложения для котангенса доказываются аналогично формулам сложения для тангенса:<br>
+            <img src="Images\Addition_Formula\ctg_of_sum_end.png" alt="Котангенс суммы - сокращение и доказательство">
+         </div>
+
+
+         <div class="iframe">
+            <iframe width="560" height="315"
+               src="https://www.youtube.com/embed/oDBLJA-RDc8?si=rwVT6l76HSa70-t7&amp;start=1"
+               title="YouTube video player" frameborder="0"
+               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+               allowfullscreen></iframe>
+         </div>
+      </div>
+
+
+
+   </main>
+
+   <footer>
+
+      <section class="use_term">
+
+         <p>&copy; Copyright 2023 | Все права защищены</p>
+         <p>Условия пользования</p>
+         <p>FAQs</p>
+
+      </section>
+
+      <section class="contact_information">
+         <h2>Контактная информация</h2>
+
+         <address>
+
+            <p>Адрес: Улица Жамакаева145</p>
+            <p>Телефон: +7 777 77 77</p>
+            <p>Email: example@info.com</p>
+
+         </address>
+      </section>
+
+      <p class="smartmath">SmartMath</p>
+   </footer>
+
+</body>
+
+</html>
